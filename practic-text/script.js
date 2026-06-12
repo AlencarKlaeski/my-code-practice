@@ -31,3 +31,23 @@ console.log("Second story: " + secondStory);
 
 let type = "52";
 console.log( typeof type );
+
+let despedirse = "goodbye";
+console.log( despedirse [ despedirse.length -1 ] );
+
+let saludo = "hello";
+console.log( saludo [ 1 ] );
+
+let caracteres = saludo [ 0 ] + saludo [ saludo.length -1 ];
+console.log( caracteres );
+
+let word = "the word said \"hello\"";
+console.log( word );
+
+let caracteres2 = "if the word said \"hello\", \nright now is \"good bye\"";
+console,log( caracteres2 );
+
+let bot = "botCharacter";
+
+let bot2 = "3";
+console.log( )
