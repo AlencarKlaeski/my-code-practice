@@ -67,3 +67,7 @@ const puntuacionMaxima = 9.9 ;
 
 const puntuacionTotal = `Mi calificacion de la musica $ {song} al final es $ { (puntacionMedia / puntuacionMaxima) * 80}`;
 console.log( puntuacionTotal) ;
+
+let posicionCadena = "Me encanta practicar JavaScript";
+
+console.log( posicionCadena.indexOf( "JavaScript", 9) );
