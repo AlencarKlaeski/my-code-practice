@@ -50,4 +50,20 @@ console,log( caracteres2 );
 let bot = "botCharacter";
 
 let bot2 = "3";
-console.log( )
+
+const interpolizacion = `My name is $ {bot} and I am ${bot2} years old.`;
+console.log( interpolizacion) ;
+
+let practica = `Esta es una practica,
+de una cadena de texto,
+con varias lineas.`;
+console.log( practica) ;
+
+const song = "bad romande";
+
+const puntuacionMedia = 9.7 ;
+
+const puntuacionMaxima = 9.9 ;
+
+const puntuacionTotal = `Mi calificacion de la musica $ {song} al final es $ { (puntacionMedia / puntuacionMaxima) * 80}`;
+console.log( puntuacionTotal) ;
