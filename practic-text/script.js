@@ -71,3 +71,12 @@ console.log( puntuacionTotal) ;
 let posicionCadena = "Me encanta practicar JavaScript";
 
 console.log( posicionCadena.indexOf( "JavaScript", 9) );
+
+let world = "e";
+console.log( world.charCodeAt(world[0]) );
+
+let stringNumber = string.fromCharCode(65);
+console.log( stringNumber );
+
+let cadena = "compropando las subcadenas";
+console.log( cadena.includes("subcadenas") );
