@@ -80,3 +80,8 @@ console.log( stringNumber );
 
 let cadena = "compropando las subcadenas";
 console.log( cadena.includes("subcadenas") );
+
+let mensaje = "I practice JavaScript!";
+
+let resultado = mensaje.slice(2, 10);
+console.log( resultado );
