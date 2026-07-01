@@ -85,3 +85,6 @@ let mensaje = "I practice JavaScript!";
 
 let resultado = mensaje.slice(2, 10);
 console.log( resultado );
+
+const hasJavaScript = fccSentence.includes("JavaScript");
+console.log(`fccSentence.includes("JavaScript") returns ${hasJavaScript} because the word "JavaScript" is not in the sentence.`);
